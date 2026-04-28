@@ -5,6 +5,8 @@
 name: Build (reusable)
 
 on:
+  push:
+    branches: "*"
   workflow_call:
     inputs:
       node-version:
